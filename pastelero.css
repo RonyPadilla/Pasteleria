@@ -1,0 +1,118 @@
+.fondo {
+  background-color: #fef8f5;
+}
+.div1 {
+  height: 100px;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  white-space: inherit;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 0 15px #ddd;
+}
+
+.logo {
+  height: 10%;
+  width: 10%;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  font-family: 'Dancing Script', cursive;
+  color: #FFAFCC;
+  height: 100%;
+  padding-left: 10%;
+  padding-top: 1%;
+}
+
+.pastelero {
+  padding-left: 600px;
+  padding-top: 3%;
+}
+
+.botonpastelero {
+  color: rgb(131, 131, 131);
+  font-size: 18px;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+
+.botonpastelero:hover,.botonpastelero:focus {
+  background-size: 100% 2px;
+}
+
+.sub-titulo{
+  display: flex;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.tabla {
+  padding-left: 10%;
+}
+
+.table1 {
+  width: 90%;
+  border: 1px solid #000;
+}
+.td1 {
+  width: 10%;
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid #000;
+}
+.tablastock {
+  padding-left: 10%;
+}
+
+.divcontactos {
+  height: 50%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  background-color: #f7dbcb;
+  white-space: inherit;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 0 15px rgb(221, 221, 221);
+}
+
+.logocontacto {
+  height: 200px;
+  width: 300px;
+  padding-left: 5%;
+}
+
+.table {
+  width: 90%;
+}
+.th,
+.td {
+  width: 10%;
+  text-align: left;
+  vertical-align: top;
+}
+
+.tabladireccion {
+  width: 110%;
+  padding-left: 10%;
+  padding-top: 4%;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10%;
+  padding-top: 3%;
+}
+
+.imagensocial {
+  width: 10%;
+  height: 10%;
+}
